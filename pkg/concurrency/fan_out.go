@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func worker(ch <-chan int, index uint) {
+func consumer(ch <-chan int, index uint) {
 	counter := 0
 	for w := range ch {
 		counter++
@@ -15,11 +15,11 @@ func worker(ch <-chan int, index uint) {
 	}
 }
 
-func Example() {
+func FoExample() {
 	work := make(chan int)
 
 	for i := range uint(3) {
-		go worker(work, i)
+		go consumer(work, i)
 	}
 
 	for i := range 10 {
