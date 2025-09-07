@@ -13,11 +13,11 @@
 *Цель: Не просто "знать", а понимать — что происходит в рантайме и под капотом.*
 
 - [ ] **Concurrency Deep Dive:**
-    - [ ] Race conditions (`go test -race`)
-    - [ ] Deadlocks (аналитика + примеры)
-    - [ ] Channel patterns (fan-in/out, worker pools, cancellation)
+    - [x] Race conditions (`go test -race`)
+    - [x] Deadlocks (аналитика + примеры)
+    - [x] Channel patterns (fan-in/out, worker pools, cancellation)
     - [ ] `context.Context` (timeouts, cancellation, values)
-    - [ ] Практика: Напиши минималистичный воркер пул с контекстом
+    - [x] Практика: Напиши минималистичный воркер пул с контекстом
 
 - [ ] **Memory & GC:**
     - [ ] Stack vs Heap
