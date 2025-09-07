@@ -12,7 +12,7 @@
 
 *Цель: Не просто "знать", а понимать — что происходит в рантайме и под капотом.*
 
-- [ ] **Concurrency Deep Dive:**
+- [x] **Concurrency Deep Dive:**
     - [x] Race conditions (`go test -race`)
     - [x] Deadlocks (аналитика + примеры)
     - [x] Channel patterns (fan-in/out, worker pools, cancellation)
