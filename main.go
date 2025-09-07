@@ -1,7 +1,7 @@
 package main
 
-import "github.com/ku113p/go-come-back-2/pkg/concurrency"
+import withcontext "github.com/ku113p/go-come-back-2/pkg/concurrency/with-context"
 
 func main() {
-	concurrency.WpExample()
+	withcontext.FiExample()
 }
