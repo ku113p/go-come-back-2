@@ -16,7 +16,7 @@
     - [x] Race conditions (`go test -race`)
     - [x] Deadlocks (аналитика + примеры)
     - [x] Channel patterns (fan-in/out, worker pools, cancellation)
-    - [ ] `context.Context` (timeouts, cancellation, values)
+    - [x] `context.Context` (timeouts, cancellation, values)
     - [x] Практика: Напиши минималистичный воркер пул с контекстом
 
 - [ ] **Memory & GC:**
