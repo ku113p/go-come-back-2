@@ -19,11 +19,11 @@
     - [x] `context.Context` (timeouts, cancellation, values)
     - [x] Практика: Напиши минималистичный воркер пул с контекстом
 
-- [ ] **Memory & GC:**
-    - [ ] Stack vs Heap
-    - [ ] Pointer escaping
-    - [ ] Garbage Collector (как работает, когда триггерится)
-    - [ ] Инструмент: `pprof`, `runtime`, `go tool trace`
+- [x] **Memory & GC:**
+    - [x] Stack vs Heap
+    - [x] Pointer escaping - poniter out | in function, big variable, interface{} address
+    - [x] Garbage Collector (как работает, когда триггерится) - STW, Tri-color Mark-and-Sweep
+    - [x] Инструмент: `pprof` (profiler - CPU | Memory), `runtime` (in app mem check), `go tool trace` (history snapshot)
 
 - [ ] **Interface Internals:**
     - [ ] `interface{}` vs конкретные интерфейсы
